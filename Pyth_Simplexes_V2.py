@@ -68,7 +68,7 @@ while True:
         print(str(possiblenums) + " POSSIBLE CONFIGURATIONS")
         print(str(vcount / (globaldims)) + " VALID SIMPLEXES")
         f.write(str(delta)+ " seconds" + "\n")
-        f.write(str(vcount / (globaldims)) + " VALID SIMPLEXES" + "\n")
+        f.write(str(vcount) + " VALID SIMPLEXES" + "\n")
         f.write(str(possiblenums)+ " POSSIBLE CONFIGURATIONS" + "\n")
         f.write(str(globaldims) + " DIMENSIONS  +  " + str(max) + " MAX VALUE")
         f.close
